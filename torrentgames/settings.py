@@ -131,4 +131,4 @@ MEDIA_URL = '/media/photos/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS=['*']
+CSRF_TRUSTED_ORIGINS=['https://games-launcher-api-production.up.railway.app', '*']
