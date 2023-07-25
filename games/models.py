@@ -10,3 +10,10 @@ class Games(models.Model):
     release_date = models.DateField()
     link = models.TextField()
     created_at = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title
+    
+    class Meta:
+        verbose_name = 'Game'
+        verbose_name_plural = 'Games'
