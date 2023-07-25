@@ -6,7 +6,7 @@ class Games(models.Model):
     id_game = models.UUIDField(primary_key=True, default=uuid4, editable=False)
     title = models.CharField(max_length=255)
     description = models.TextField()
-    image = models.ImageField(upload_to='games')
+    image = models.ImageField(upload_to='static/images')
     release_date = models.DateField()
     link = models.TextField()
     created_at = models.DateField(auto_now_add=True)
