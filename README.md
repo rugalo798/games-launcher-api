@@ -1,1 +1,1 @@
-# games-torrent-api
+# games-api
